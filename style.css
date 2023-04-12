@@ -1,0 +1,85 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 10px 10px;
+}
+nav{
+    
+    /* justify-content: space-around; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav :last-child{
+    margin-left: auto
+}
+
+nav div ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav-button{
+    background-color: #4294d8;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 125px;
+    color: #fff;
+
+}
+
+nav div ul li{
+    list-style: none;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.banner-container :first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    /* flex-wrap: wrap; */
+    margin: 10px 0px;
+    /* width: 40%; */
+
+}
+
+.banner-container :last-child{
+    /* width: 60%;  */
+    justify-content: left;
+    flex-grow: inherit;
+    
+}
+
+.heading-text{
+    font-size: 60px;
+    font-weight: 1000;
+   
+    /* display:block;
+    word-break: break-all; */
+    /* font-size: 45px;
+    font-weight: 1000; */
+    display: block;
+    text-align:left;
+    line-height:1.2;
+    letter-spacing:1px;
+    word-spacing:2px;
+}
+
+   
+
+
+p{
+    font-size: 25px;  
+}
+span{
+    color:#4294d8;
+}
